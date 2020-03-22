@@ -1,0 +1,22 @@
+{
+  "name": "jenkins-docker-poc",
+  "version": "1.0.0",
+  "description": "demo cibc poc",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jay936/jenkins-docker-poc.git"
+  },
+  "author": "jaydeep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jay936/jenkins-docker-poc/issues"
+  },
+  "homepage": "https://github.com/Jay936/jenkins-docker-poc#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
