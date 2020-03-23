@@ -2,7 +2,7 @@ const express = require('express');
 const server = express();
 
 server.get("/", (req, res) => {
-    res.json({ message: "Hello world" });
+    res.json({ message: "Hello world - tested on March 23" });
  });
 
  server.get("/ready", (req, res) => {
