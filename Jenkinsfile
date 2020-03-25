@@ -7,6 +7,6 @@ node {
         def customImage = docker.build("jaydeep36/hello-nodejs")
 
         /* Push the container to the custom Registry */
-        customImage.push()
+        customImage.push("latest")
     }
 }
